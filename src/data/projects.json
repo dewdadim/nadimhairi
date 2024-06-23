@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "STOOKET",
+    "description": "WEB APP - 2024",
+    "thumbnail": "/thumbnail/stooket.png",
+    "link": "/stooket"
+  },
+  {
+    "id": 2,
+    "title": "DAPUR AZMAN",
+    "description": "WEB DESIGN - 2023",
+    "thumbnail": "/thumbnail/dapur-azman.png",
+    "link": "/dapur-azman"
+  },
+  {
+    "id": 3,
+    "title": "JAVA QUIZ APP",
+    "description": "JAVA SOFTWARE - 2023",
+    "thumbnail": "/thumbnail/java-quiz-app.gif",
+    "link": "/java-quiz-app"
+  },
+  {
+    "id": 4,
+    "title": "GEN Y CULT",
+    "description": "BRANDING - 2021",
+    "thumbnail": "/thumbnail/gen-y-cult.jpg",
+    "link": "/gen-y-cult"
+  },
+  {
+    "id": 5,
+    "title": "DEWDADIM",
+    "description": "BRANDING - 2020",
+    "thumbnail": "/thumbnail/dewdadim.gif",
+    "link": "/dewdadim"
+  }
+]
