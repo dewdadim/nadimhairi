@@ -24,8 +24,8 @@ export default function page() {
               <p className="text-paragraph">
                 It was my freelance job during semester break. I got this job
                 from a Web Application Engineer, Farid Aiman — Designing a
-                website for a company called "Dapur Azman" to showcase their
-                services, quality, and highly positive reviews.
+                website for a company called &quot;Dapur Azman&quot; to showcase
+                their services, quality, and highly positive reviews.
               </p>
             </div>
             <div className="grid grid-cols-3 mt-8 gap-y-6">

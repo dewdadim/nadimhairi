@@ -27,8 +27,8 @@ export default function page() {
             <div className="mt-8">
               <p className="text-paragraph">
                 Stooket is a student marketplace system that I develop during my
-                Diploma's Final Year in Universiti Malaysia Pahang Al-Sultan
-                Abdullah (UMPSA).
+                Diploma&lsquo;s Final Year in Universiti Malaysia Pahang
+                Al-Sultan Abdullah (UMPSA).
               </p>
             </div>
             <div className="grid grid-cols-3 mt-8 gap-y-6">

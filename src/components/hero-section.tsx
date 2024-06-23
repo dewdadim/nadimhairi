@@ -19,10 +19,10 @@ export function HeroSection({ className }: HeroSectionProps) {
         fill="white"
       />
       <h3 className="font-medium text-xl text-center">
-        Hey, I'm Nadim Hairi. 👋
+        Hey, I&lsquo;m Nadim Hairi. 👋
       </h3>
       <p className="text-center leading-loose text-paragraph font-medium">
-        I'm a fullstack developer, UI/UX designer, and logo designer.
+        I&lsquo;m a fullstack developer, UI/UX designer, and logo designer.
         <br />I expertise with a{' '}
         <Button asChild variant="secondary" className="px-2 h-8">
           <LinkPreview url="https://react.dev/">
