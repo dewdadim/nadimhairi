@@ -1,8 +1,10 @@
-import { ArrowUpRight, Facebook, Github, Linkedin } from 'lucide-react'
+import { ArrowUpRight, Facebook, Github, Linkedin, Menu } from 'lucide-react'
 import MaxWidthWrapper from './max-width-wrapper'
 import Link from 'next/link'
 import { ModeToggle } from './mode-toggle'
 import { Separator } from './ui/separator'
+import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
+import { Button } from './ui/button'
 
 const socials = [
   {
@@ -30,22 +32,49 @@ export const Navbar = () => {
           <Link href={'/'}>
             <h1 className="font-medium">Nadim Hairi</h1>
           </Link>
-          <div className="flex gap-4 items-center ">
-            {socials.map((social) => (
-              <Link
-                href={social.href}
-                className="flex gap-1 hover:underline items-end group"
-                target="_blank"
-                key={social.id}
-              >
-                <p className="text-sm">{social.title}</p>
-                <ArrowUpRight
-                  size={20}
-                  className="group-hover:-translate-y-1 ease-in-out transition"
-                />
-              </Link>
-            ))}
+          <div className="gap-4 items-center flex">
+            <div className="gap-4 items-center hidden md:flex">
+              {socials.map((social) => (
+                <Link
+                  href={social.href}
+                  className="flex gap-1 hover:underline items-end group"
+                  target="_blank"
+                  key={social.id}
+                >
+                  <p className="text-sm">{social.title}</p>
+                  <ArrowUpRight
+                    size={20}
+                    className="group-hover:-translate-y-1 ease-in-out transition"
+                  />
+                </Link>
+              ))}
+            </div>
             <ModeToggle />
+            <Popover>
+              <PopoverTrigger asChild className="flex md:hidden">
+                <Button variant="ghost" size="icon">
+                  <Menu />
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto min-w-32 max-w-fit" align="end">
+                <div className="flex flex-col gap-4">
+                  {socials.map((social) => (
+                    <Link
+                      href={social.href}
+                      className="flex gap-1 hover:underline items-end group"
+                      target="_blank"
+                      key={social.id}
+                    >
+                      <p className="text-sm">{social.title}</p>
+                      <ArrowUpRight
+                        size={20}
+                        className="group-hover:-translate-y-1 ease-in-out transition"
+                      />
+                    </Link>
+                  ))}
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
         </div>
       </MaxWidthWrapper>
