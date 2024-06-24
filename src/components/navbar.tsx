@@ -26,7 +26,7 @@ const socials = [
 
 export const Navbar = () => {
   return (
-    <div className="fixed top-0 z-50 w-screen bg-background/80">
+    <nav className="fixed top-0 z-50 w-full bg-background/80">
       <MaxWidthWrapper>
         <div className="flex items-center justify-between py-2">
           <Link href={'/'}>
@@ -79,6 +79,6 @@ export const Navbar = () => {
         </div>
       </MaxWidthWrapper>
       <Separator />
-    </div>
+    </nav>
   )
 }
