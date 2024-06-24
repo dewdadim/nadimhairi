@@ -29,7 +29,7 @@ export default function page() {
                 and related with Generation Y people.
               </p>
             </div>
-            <div className="grid grid-cols-3 mt-8 gap-y-6">
+            <div className="grid grid-cols-3 mt-8 gap-y-6 gap-x-4">
               <div>
                 <h4 className="font-semibold text-sm mb-2">ROLE</h4>
                 <p className="text-paragraph">Brand Designer</p>
@@ -58,6 +58,10 @@ export default function page() {
                     Spotify <ArrowUpRight size={16} />
                   </p>
                 </Link>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm mb-2">YEAR</h4>
+                <p className="text-paragraph">2021</p>
               </div>
             </div>
           </div>

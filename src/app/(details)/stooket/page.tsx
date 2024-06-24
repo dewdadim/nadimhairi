@@ -23,7 +23,7 @@ export default function page() {
           <h2 className="font-bold text-2xl mt-4">
             STOOKET: Student Marketplace
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2  gap-x-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
             <div className="mt-8">
               <p className="text-paragraph">
                 Stooket is a student marketplace system that I develop during my
@@ -31,7 +31,7 @@ export default function page() {
                 Al-Sultan Abdullah (UMPSA).
               </p>
             </div>
-            <div className="grid grid-cols-3 mt-8 gap-y-6">
+            <div className="grid grid-cols-3 mt-8 gap-y-6 gap-x-4">
               <div>
                 <h4 className="font-semibold text-sm mb-2">AWARD</h4>
                 <p className="text-paragraph">Silver Award</p>
@@ -55,6 +55,10 @@ export default function page() {
                     stooket.com <ArrowUpRight size={16} />
                   </p>
                 </Link>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm mb-2">YEAR</h4>
+                <p className="text-paragraph">2024</p>
               </div>
             </div>
           </div>

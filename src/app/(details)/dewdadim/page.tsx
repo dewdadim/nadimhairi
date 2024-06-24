@@ -27,7 +27,7 @@ export default function page() {
                 energetic vibes the viewers and supporters.
               </p>
             </div>
-            <div className="grid grid-cols-3 mt-8 gap-y-6">
+            <div className="grid grid-cols-3 mt-8 gap-y-6 gap-x-4">
               <div>
                 <h4 className="font-semibold text-sm mb-2">ROLE</h4>
                 <p className="text-paragraph">Brand Designer</p>
@@ -37,6 +37,10 @@ export default function page() {
                 <p className="text-paragraph">
                   After Effects, Illustrator, Photoshop
                 </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm mb-2">YEAR</h4>
+                <p className="text-paragraph">2020</p>
               </div>
             </div>
           </div>

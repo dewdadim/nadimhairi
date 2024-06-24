@@ -28,7 +28,7 @@ export default function page() {
                 their services, quality, and highly positive reviews.
               </p>
             </div>
-            <div className="grid grid-cols-3 mt-8 gap-y-6">
+            <div className="grid grid-cols-3 mt-8 gap-y-6 gap-x-4">
               <div>
                 <h4 className="font-semibold text-sm mb-2">ROLE</h4>
                 <p className="text-paragraph">Web Desiner</p>
@@ -40,6 +40,10 @@ export default function page() {
               <div>
                 <h4 className="font-semibold text-sm mb-2">TOOLS</h4>
                 <p className="text-paragraph">Figma, Illustrator</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm mb-2">YEAR</h4>
+                <p className="text-paragraph">2023</p>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function page() {
             />
           </AspectRatio>
           <h2 className="font-bold text-2xl mt-4">Java Quiz App</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2  gap-x-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
             <div className="mt-8">
               <p className="text-paragraph">
                 It was my mini project during my second semester in Diploma.
@@ -27,7 +27,7 @@ export default function page() {
                 studies. The source code is available on my Github!
               </p>
             </div>
-            <div className="grid grid-cols-3 mt-8 gap-y-6">
+            <div className="grid grid-cols-3 mt-8 gap-y-6 gap-x-4">
               <div>
                 <h4 className="font-semibold text-sm mb-2">ROLE</h4>
                 <p className="text-paragraph">Software Developer</p>
@@ -47,6 +47,10 @@ export default function page() {
                     Source Code <ArrowUpRight size={16} />
                   </p>
                 </Link>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm mb-2">YEAR</h4>
+                <p className="text-paragraph">2023</p>
               </div>
             </div>
           </div>
