@@ -28,11 +28,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-          <div className="noise" />
-          <SmoothScroll />
-          {children}
-          <Footer />
+          <main className="relative flex min-h-screen flex-col">
+            <Navbar />
+            <div className="noise" />
+            <SmoothScroll />
+            <div className="flex-1 flex-grow">{children}</div>
+            <Footer />
+          </main>
         </ThemeProvider>
       </body>
     </html>
