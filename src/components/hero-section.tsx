@@ -15,7 +15,7 @@ export function HeroSection({ className }: HeroSectionProps) {
   return (
     <section className={cn('flex flex-col items-center gap-4', className)}>
       <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
+        className="-top-40 left-0 md:left-60 md:-top-20 w-full"
         fill="white"
       />
       <h3 className="font-medium text-xl text-center">
