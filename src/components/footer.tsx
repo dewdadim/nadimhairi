@@ -23,7 +23,7 @@ const socials = [
 
 export function Footer() {
   return (
-    <footer className="mt-24 bg-secondary bottom-0 z-10">
+    <footer className="mt-24 bg-secondary bottom-0 z-20">
       <Separator />
       <MaxWidthWrapper>
         <div className="py-8 flex flex-col items-center text-center gap-8 md:flex-row md:text-start md:justify-between md:items-start">

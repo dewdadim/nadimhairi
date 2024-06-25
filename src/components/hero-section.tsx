@@ -1,9 +1,7 @@
 'use client'
-import Link from 'next/link'
 import { Button } from './ui/button'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import { WavyBackground } from './ui/wavy-background'
 import { Spotlight } from './ui/spotlight'
 import { LinkPreview } from './ui/link-preview'
 

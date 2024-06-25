@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { relative } from 'path'
 
 interface ProjectCardProps {
   thumbnail: string
@@ -17,7 +16,7 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Link
-      className="hover:opacity-75 transition ease-in-out hover:shadow-2xl shadow-primary group"
+      className="hover:opacity-75 transition ease-in-out hover:shadow-2xl shadow-primary group view-project"
       href={link}
     >
       <div className="w-full relative">

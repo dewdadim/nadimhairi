@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { ProjectCard } from './project-card'
 import projects from '@/data/projects.json'

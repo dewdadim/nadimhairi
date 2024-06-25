@@ -1,4 +1,4 @@
-import { ArrowUpRight, Facebook, Github, Linkedin, Menu } from 'lucide-react'
+import { ArrowUpRight, Menu } from 'lucide-react'
 import MaxWidthWrapper from './max-width-wrapper'
 import Link from 'next/link'
 import { ModeToggle } from './mode-toggle'
@@ -26,10 +26,10 @@ const socials = [
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-background/80">
+    <nav className="fixed top-0 z-20 w-full bg-background/80">
       <MaxWidthWrapper>
         <div className="flex items-center justify-between py-2">
-          <Link href={'/'}>
+          <Link href={'/'} className="w-fit">
             <h1 className="font-medium">Nadim Hairi</h1>
           </Link>
           <div className="gap-4 items-center flex">

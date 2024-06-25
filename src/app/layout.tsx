@@ -6,6 +6,8 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { Navbar } from '@/components/navbar'
 import SmoothScroll from '@/components/smooth-scroll'
 import { Footer } from '@/components/footer'
+import { animatePageOut } from '@/utils/animation'
+import Cursor from '@/components/ui/cursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
