@@ -25,7 +25,7 @@ export function ProjectCard({
           alt={title}
           width={0}
           height={0}
-          sizes="100vw"
+          sizes="40vw"
           className="group-hover:-translate-y-1 transition ease-in-out rounded-md"
           style={{ width: '100%', height: 'auto' }}
         />
