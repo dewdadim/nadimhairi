@@ -33,7 +33,7 @@ export default function RootLayout({
           <main className="relative flex min-h-screen flex-col">
             <Navbar />
             <div className="noise" />
-            <SmoothScroll />
+            {/* <SmoothScroll /> */}
             <div className="flex-1 flex-grow">{children}</div>
             <Footer />
           </main>
