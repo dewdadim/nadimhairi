@@ -8,6 +8,7 @@ import SmoothScroll from '@/components/smooth-scroll'
 import { Footer } from '@/components/footer'
 import { animatePageOut } from '@/utils/animation'
 import Cursor from '@/components/ui/cursor'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,7 +35,10 @@ export default function RootLayout({
             <Navbar />
             <div className="noise" />
             {/* <SmoothScroll /> */}
-            <div className="flex-1 flex-grow">{children}</div>
+            <div className="flex-1 flex-grow">
+              {children}
+              <Analytics />
+            </div>
             <Footer />
           </main>
         </ThemeProvider>
