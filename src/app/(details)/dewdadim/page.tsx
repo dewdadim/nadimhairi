@@ -12,8 +12,10 @@ export default function page() {
         <div className="mt-20">
           <AspectRatio ratio={5 / 2}>
             <Image
+              unoptimized
               src={'/thumbnail/dewdadim.gif'}
               alt={'dapur azman'}
+              placeholder="empty"
               fill
               className="rounded-md object-cover"
             />
@@ -53,6 +55,7 @@ export default function page() {
                 alt={'channel dewdadim'}
                 width={0}
                 height={0}
+                placeholder="empty"
                 sizes="100vw"
                 className="rounded-md border"
                 style={{ width: '100%', height: 'auto' }}
@@ -60,10 +63,12 @@ export default function page() {
             </div>
             <div className="w-full relative">
               <Image
+                unoptimized
                 src={'/dewdadim/intro.gif'}
                 alt={'intro dewdadim'}
                 width={0}
                 height={0}
+                placeholder="empty"
                 sizes="100vw"
                 className="rounded-md"
                 style={{ width: '100%', height: 'auto' }}

@@ -74,6 +74,7 @@ export default function page() {
             </div>
             <div className="w-full relative">
               <Image
+                unoptimized
                 src={'/dapur-azman/demo.gif'}
                 alt={'demo dapur azman'}
                 width={0}

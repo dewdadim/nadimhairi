@@ -12,6 +12,7 @@ export default function page() {
         <div className="mt-20">
           <AspectRatio ratio={5 / 3}>
             <Image
+              unoptimized
               src={'/thumbnail/java-quiz-app.gif'}
               alt={'dapur azman'}
               fill

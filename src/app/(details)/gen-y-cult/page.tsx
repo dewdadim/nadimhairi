@@ -15,6 +15,7 @@ export default function page() {
               alt={'stooket header'}
               width={0}
               height={0}
+              placeholder="empty"
               sizes="100vw"
               className="rounded-md"
               style={{ width: '100%', height: 'auto' }}
@@ -74,6 +75,7 @@ export default function page() {
                 alt={'gen y cult logo'}
                 width={0}
                 height={0}
+                placeholder="empty"
                 sizes="100vw"
                 className="group-hover:-translate-y-1 transition ease-in-out rounded-md"
                 style={{ width: '100%', height: 'auto' }}
@@ -85,6 +87,7 @@ export default function page() {
                 alt={'spotify gen y cult'}
                 width={0}
                 height={0}
+                placeholder="empty"
                 sizes="100vw"
                 className="group-hover:-translate-y-1 transition ease-in-out rounded-md"
                 style={{ width: '100%', height: 'auto' }}

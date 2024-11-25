@@ -29,7 +29,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 z-20 w-full bg-background/80">
       <MaxWidthWrapper>
         <div className="flex items-center justify-between py-2">
-          <Link href={'/'} className="w-fit">
+          <Link href={'/'} className="w-fit" prefetch>
             <h1 className="font-medium">Nadim Hairi</h1>
           </Link>
           <div className="gap-4 items-center flex">

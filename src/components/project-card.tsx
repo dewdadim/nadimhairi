@@ -16,16 +16,19 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Link
+      prefetch
       className="hover:opacity-75 transition ease-in-out hover:shadow-2xl shadow-primary group view-project"
       href={link}
     >
       <div className="w-full relative">
         <Image
+          unoptimized={thumbnail.includes('gif')}
           src={thumbnail}
           alt={title}
           width={0}
           height={0}
           sizes="40vw"
+          placeholder="empty"
           className="group-hover:-translate-y-1 transition ease-in-out rounded-md"
           style={{ width: '100%', height: 'auto' }}
         />
